@@ -91,9 +91,13 @@ kubectl -n jenkins get pods
 ```bash
 kubectl get all -n jenkins 
 ```
-Screenshot from 2023-02-17 20-47-19.png
-Screenshot from 2023-02-17 20-50-38.png
-Screenshot from 2023-02-17 22-03-00.png
-Screenshot from 2023-02-17 22-04-07.png
-Screenshot from 2023-02-17 22-05-50.png
-Screenshot from 2023-02-17 22-07-38.png
+![Screenshot from 2023-02-17 20-47-19](https://user-images.githubusercontent.com/50025855/219796091-48caeb64-63ef-496c-a097-6fdc10ab33dd.png)
+![Screenshot from 2023-02-17 20-50-38](https://user-images.githubusercontent.com/50025855/219796123-7262fe9d-96a3-40e8-bd0f-9292236cc206.png)
+![Screenshot from 2023-02-17 22-03-00](https://user-images.githubusercontent.com/50025855/219796145-91533b1d-27c1-4731-a66e-9cab5fdf8759.png)
+![Screenshot from 2023-02-17 22-04-07](https://user-images.githubusercontent.com/50025855/219796183-8a265dd8-7d3d-4c1f-825a-8fa36bee6653.png)
+![Screenshot from 2023-02-17 22-05-50](https://user-images.githubusercontent.com/50025855/219796233-153ae681-3ef7-4d69-96a9-ee04f831f408.png)
+![Screenshot from 2023-02-17 22-07-38](https://user-images.githubusercontent.com/50025855/219796304-894a8057-f69a-4176-af48-1b65c7654b56.png)
+
+
+
+
