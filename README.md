@@ -58,27 +58,23 @@ aws efs describe-file-systems --query "FileSystems[*].FileSystemId" --output tex
 kubectl create namespace jenkins
 kubectl create namespace webapp
 ```
-![image](https://user-images.githubusercontent.com/101838529/219526903-3490ea12-8b84-4020-8ec7-cc2565379c5e.png)
 
 ## Setup a storage for Jenkins
 ```bash
 kubectl get storageclass
 ```
-![image](https://user-images.githubusercontent.com/101838529/219527910-7c73db75-968e-4011-8b2f-04adc5faa607.png)
 
 ```bash
 # create volume
 kubectl apply -f ./pv.yaml 
 kubectl get pv
 ```
-![image](https://user-images.githubusercontent.com/101838529/219528252-3964ef91-b550-4743-9c26-e330c8329e18.png)
 
 ```bash
 # create volume claim
 kubectl apply -n jenkins -f ./pvc.yaml
 kubectl -n jenkins get pvc
 ```
-![image](https://user-images.githubusercontent.com/101838529/219528653-c1f0c108-e673-47c8-8e51-300de3547e09.png)
 
 ## This step to deploy Jenkins
 ```bash
@@ -90,10 +86,14 @@ kubectl apply -n jenkins -f ./service.yaml
 
 kubectl -n jenkins get pods
 ```
-![image](https://user-images.githubusercontent.com/101838529/219534060-9c994f26-a6fb-4735-9d04-9634b2991ddb.png)
 
 ## Expose an external url 
 ```bash
 kubectl get all -n jenkins 
 ```
-![image](https://user-images.githubusercontent.com/101838529/219534644-e78f2fdc-a9b4-48a3-9cb2-a0bbea1b7447.png)
+Screenshot from 2023-02-17 20-47-19.png
+Screenshot from 2023-02-17 20-50-38.png
+Screenshot from 2023-02-17 22-03-00.png
+Screenshot from 2023-02-17 22-04-07.png
+Screenshot from 2023-02-17 22-05-50.png
+Screenshot from 2023-02-17 22-07-38.png
